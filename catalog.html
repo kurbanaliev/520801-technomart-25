@@ -11,14 +11,14 @@
           <img src="img/logo-technomart.svg" width="368" height="153" alt="Логотип «Техномарт»">
         </a>
         <ul class="main-header-top-navigation">
-          <form class="search-form" action="#">
-            <label>
-              <li class="search">
+          <li class="search">
+            <form class="search-form" action="#">
+              <label>
                 <img src="img/catalog/icon-search.svg" alt="поиск">
-              </li>
-              <input type="search" name="search" placeholder="Поиск:">
-            </label>
-          </form>
+                <input type="search" name="search" placeholder="Поиск:">
+              </label>
+            </form>
+          </li>
           <li class="bookmark">
             <a href="#"><img src="img/catalog/icon-bookmark.svg" alt="закладки">
             Закладки:</a>
@@ -208,11 +208,11 @@
         </form>
       </section>  
     <section>
-      <div class="cart">
+      <div class="modal-cart">
         <img src="img/catalog/icon-mark.svg" alt="галочка">
         <h2>Товар добавлен в корзину!</h2>
-        <button class="button" type="submit">оформить заказ</button>
-        <button class="button buttun-continue" type="button">продолжить покупки</button>
+        <a class="modal-button" href="#">оформить заказ</a>
+        <a class="modal-button" href="#">продолжить покупки</a>
         <button class="modal-close">закрыть</button>
       </div>
     </section>
