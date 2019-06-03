@@ -4,48 +4,38 @@
 	<meta charset="UTF-8">
 	<title>Каталог</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-	<header class="main-header">
-      <div class="top-header">
-        <a href="#" class="main-header-logo">
-          <img src="img/logo-technomart.svg" width="368" height="153" alt="Логотип «Техномарт»">
-        </a>
-        <ul class="main-header-top-navigation">
-          <li class="search">
-            <form class="search-form" action="#">
-              <label>
-                <img src="img/catalog/icon-search.svg" alt="поиск">
-                <input type="search" name="search" placeholder="Поиск:">
-              </label>
+  </head>
+    <body>
+      <header class="main-header">
+      <div class="header-top">
+          <a class="main-header-logo">
+            <img src="img/logo-technomart.svg" width="368" height="153" alt="Логотип «Техномарт»">
+          </a>
+          <div class="main-header-top-navigation"> 
+            <form class="search-form" action="http://echo.htmlacademy.ru" method="post">
+                <input type="search" name="search" id="search" placeholder="Поиск:" required>
+                <label for="search"></label>
             </form>
-          </li>
-          <li class="bookmark">
-            <a href="#"><img src="img/catalog/icon-bookmark.svg" alt="закладки">
-            Закладки:</a>
-          </li>
-          <li class="basket">
-            <a href="#"><img src="img/icon-cart.svg" alt="корзина">
-            Корзина:</a>
-          </li>
-        </ul>
-        <a class="place-order" href="#">Оформить заказ</a>
+            <a class="bookmarkk" href="#">Закладки:</a>
+            <a class="cart" href="#">Корзина:</a>
+            <a class="order" href="#">Оформить заказ</a>
+          </div>
       </div>
-      <div class="middle-header">
-        <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-        <ul class="main-phone">
-          <li><a href="tel:+78125550555">+7 (812) 555-05-55</a></li>
-          <li><address>г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8</address></li>
-        </ul> 
-        <ul class="user-navigation">
-          <li><a class="user-navigation" href="#">Равшан Джамшутович</a></li>
-        </ul>
-          <a class="my-orders" href="#">Мои заказы</a>
-          <a class="personal-account" href="#">Личный кабинет</a>
-       
+      <div class="header-middle">
+        <p class="main-title">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <div class="contacts">
+          <p class="phone"><a href="tel:+78125550555">+7 (812) 555-05-55</a></p>
+          <p class="address">г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
+        </div>
+        <div class="user-area"> 
+          <a href="#" class="user-area__button"> 
+            <img src="img/catalog/icon-user.svg" alt="иконка пользователя"> 
+            <span>Равшан Джамшутович</span> 
+            <img src="img/catalog/icon-logout.svg" alt="иконка выхода">
+          </a> 
+        </div>
       </div>
       <nav class="main-navigation">    
         <ul class="site-navigation">
@@ -216,7 +206,7 @@
             <li><a href="delivery.html">Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
-          <ul>
+          <ul class="addres-phone">
             <li>г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8 </li>
             <li><a href="tel:+78125550555">+7 (812) 555-05-55</a></li>
           </ul>
@@ -228,7 +218,7 @@
               <li><a href="offers.html">Спецпредложения</a></li>
           </ul>
         </section>
-        <section class="bottom">
+        <section class="footer-bottom">
           <p class="footer-copyright">
         © 2010-2017 Компания «Техномарт»<br>
         Все права защищены
