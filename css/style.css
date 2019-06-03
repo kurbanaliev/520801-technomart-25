@@ -2,139 +2,13 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: Cuprum, Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.inner-page {
-  color: #000000;
-  font-family: "PT Sans", Arial, sans-serif;
-
-  background-color: #ffffff;
 }
 
 a {
 	text-decoration: none;
-}
-
- a.my-orders {
-  text-decoration: underline;
-  color: #32425c;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-}
-
-.personal-account {
-	text-decoration: underline;
-	color: #32425c;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-}
-
-.search input {
-	font: inherit;
-	line-height: 18px;
-	font-size: 17px;
-	color: #ffffff;
-	background-color: #f3f7f9;
-}
-
-.breadcrumbs {
-	list-style: none;
-}
-
-.breadcrumbs a {
-	color: #000000;
-}
-
-.breadcrumbs a:hover,
-.breadcrumbs a:focus {
-  text-decoration: underline;
-}
-
-.breadcrumbs-current {
-  color: #000000;
-}
-
-.perforator-title {
-	font-family: Cuprum;
-	color: #32425c;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
-.filter fieldset {
-  border: none;
-}
-
-.filter legend {
-color: #000000;
-font-size: 17px;
-font-weight: 700;
-line-height: 30px;
-text-transform: uppercase;
-}
-
-.filter ul {
-  list-style: none;
-  line-height: 30px;
-  color: #000000;
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.filter-input:hover,
-.filter-input:focus {
-  color: #000000;
-  opacity: 0.8;
-}
-
-.button {
-  padding: 14px 40px 12px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  text-transform: uppercase;
-  border: none;
-
-  background-color: #ee3643;
-}
-
-.filter-button {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #e5e5e5;
-  font-family: "PT Sans";
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 18px;
-}
-.filter-button:hover {
-	border: 1px solid #bdc6ca;
-}
-
-.card h3 {
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-}
-
-.card span {
-	color: #999999;
-	font-size: 17px;
-	font-weight: 700;
-	line-height: 18px;
-	text-decoration: line-through;
-	text-transform: uppercase;
 }
 
 .modal {
@@ -144,230 +18,162 @@ text-transform: uppercase;
 	display: none;
 }
 
-.main-header {
-	background-color: #f3f7f9;
-}
 
-.top-header {
-	background-color: #293449;
-	font-size: 17px;
-	line-height: 18px;
-}
-
-.top-header ul {
-	list-style: none;
-}
-
-.top-header a {
-	line-height: 18px;
-	font-size: 17px;
-	color: #ffffff;
-}
-
-.place-order {
-	background-color: #63a63e;
-}
-
-.middle-header ul {
-	list-style: none;
-}
-.middle-header h1 {
-	width: 196px;
- height: 60px;
-	font-size: 16px;
-	line-height: 23px;
-	color: #ee3643;
-	font-style: italic;
-}
-
-.main-phone a {
-	border: 3px solid #ffffff;
-	color: #ee3643;
-	font-size: 21px;
-	line-height: 21px;
-}
-
-.main-phone address {
-  font-size: 14px;
-  line-height: 24px;
-  color: #32425c;
-}
-
-.user-navigation a {
-  color: #000000;
-  padding: 10px;
-
-	background-color: #ffffff;
-}
-
-.login-word {
-	padding-left: 25px;
-	margin-top: -30px;
-}
-
-.main-navigation ul {
- 	list-style: none;
-
- 	background-color: #293449;
-}
-
-.main-navigation a {
- 	color: #ffffff;
- 	font-size: 17px;
- 	line-height: 17px;
-}
-
-.index-columns {
- 	background-color: #ffffff;
- 	color: #000000;
-}
-
-.about-us h2 {
- 	font-size: 30px;	
- 	line-height: 30px;
- 	text-transform: uppercase;
- 	font-weight: 400;
-}
-
-.about-us p {
-  font-family: "PT Sans";
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.about-us ul {
- 	list-style: none;
-}
-
-.trans-company {
- 	font-size: 20px;
-}
-
-.contacts {
-	text-align: right;
-}
-.contacts h2 {
-  font-size: 30px;	
- 	line-height: 30px;
- 	text-transform: uppercase;
- 	font-weight: 400;
-}
-
-.contacts p {
-  font-family: "PT Sans";
-  font-size: 17px;
-  font-weight: 400;
-} 
-
-.product-list a {
-	color: #ffffff;
-	font-size: 17px;
-	font-weight: 700;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-.product-list a {
-	background-color: #ee3643;
-	background: url("../img/catalog/red-button.svg");
-}
-
-.buy-bookmark li {
-  list-style: none;
-}
-
-.buy {
-	padding: 10px;
-	width: 135px;
+/*Стили для header*/
+.button {
+	min-width: 220px;
 	height: 38px;
-	box-shadow: inset 0 -3px 0 #367315;
-	background-color: #63a63e;
-}
-
-.buy a {
+	background-color: #ee3643;
+	padding: 10px 40px;
 	color: #ffffff;
-	font-family: Cuprum;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
 	text-transform: uppercase;
-	background: none;
 }
 
-.buy a:before {
-	content: url("../img/icon-cart.svg");
+.main-header {
+	background-color: #f4f7f9;
 }
 
-.bookmark {
-	padding-top: 10px;
-	text-align: center;
-	width: 135px;
-	height: 38px;
-	border: 3px solid #63a63e;
+.header-top {
+	background-color: #33445a;
 }
 
-.bookmark a {
-	width: 67px;
-	height: 12px;
+.header-top a {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.main-title {
+	color: #ee3643;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 23px;
+}
+
+.phone {
+	width: 270px;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  border: 3px solid #ffffff;
+}	
+
+.phone a {
+	font-size: 21px;
+	line-height: 18px;
+	font-family: "Cuprum",  sans-serif;
+	color: #fb463c;
+}
+
+.address {
+	width: 250px;
+	height: 13px;
 	color: #32425c;
 	font-family: Cuprum;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-.pagination-list {
-  list-style: none;
+	line-height: 24px;
 }
 
-.pagination-item a {
-	color: #000000;
-  padding: 15px;
-  width: 38px;
-  height: 38px;
-  border: 1px solid #e5e5e5;
-  background-color: #ffffff;
-}
-
-.pagination-item a:hover,
-.pagination-item a:focus,
-.pagination-item a:active {
-  border: 1px solid #ee3643;
-}
-
-.pagination-item-current a {
-	color: #ffffff;
-  background-color: #ee3643;
-}
-
-
-footer {
-  background-color: #32425c;
-}
-
-.top-navigation ul {
+.user-navigation {
 	list-style: none;
 }
 
-.top-navigation a {
-	color: #f1f5f7;
-	font-size: 18px;
+.user-navigation li {
+	background-color: #ffffff;
+}
+
+.user-navigation a {
+	height: 20px;
+	color: #000000;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.site-navigation {
+  list-style: none;
+
+
+	background-color: #32425c;
+}
+
+.site-navigation a {
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+/*Стили для main */
+.about-company-title, 
+.contacts-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-company p {
+	font-family: "PT Sans";
   font-weight: 400;
   line-height: 24px;
 }
-.top-navigation li {
+
+.about-company-button {
+	width: 220px;
+	height: 38px;
+	background-color: #ee3643;
+	padding: 10px 40px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.trans-company li {
+	list-style: none;
 	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 20px;
+} 
+
+.contacts p {
+	font-family: "PT Sans";
   font-weight: 400;
   line-height: 24px;
+}
+
+.contacts-button {
+	width: 300px;
+}
+
+footer {
+	background-color: #32425c;
+}
+
+.addres-phone li {
+	color: #f3f7f9;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	list-style: none;
+}
+
+.addres-phone a {
+	color: #f3f7f9;
 }
 
 .site-navigation-footer-darken a {
 	color: #ffd180;
 }
-.bottom {
+
+.footer-bottom {
 	background-color: #293449;
-	font-size: 16px;
-	line-height: 18px;
 }
 
 .footer-social ul {
@@ -375,7 +181,7 @@ footer {
 
 }
 
-.bottom p, b { 
+.footer-bottom p, b { 
   color: #f1f5f7;
   font-size: 16px;
   line-height: 18px;
@@ -388,21 +194,4 @@ footer {
 
 .footer-developed a {
 	color: #ffd180;
-}
-
-.main-header-logo img {
-/* Style for "Layer 90 c" */
-padding: 13px 55px 15px 56px;
-width: 220px;
-height: 47px;
-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
-background-color: #ee3643;
-}
-
-.main-header-logo img:hover {
-	/* Style for "Layer 90" */
-width: 220px;
-height: 47px;
-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
-background-color: #ca2c37;
 }
