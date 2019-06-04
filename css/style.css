@@ -30,9 +30,7 @@ a {
 
 
 /*Стили для header*/
-.button {
-	min-width: 220px;
-	height: 38px;
+.user-area__button {
 	background-color: #ee3643;
 	padding: 10px 40px;
 	color: #ffffff;
@@ -44,6 +42,8 @@ a {
 
 .main-header {
 	background-color: #f4f7f9;
+	min-height: 260px;
+	margin-bottom: 120px;
 }
 
 .header-top {
@@ -117,6 +117,156 @@ a {
 }
 
 /*Стили для main */
+.button {
+	padding: 15px 45px;
+	background-color: #ee3643;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+/*Стили для catalog*/
+.catalog-menu-btn {
+	color: #ffffff;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding: 15px 25px;
+}
+
+.catalog-list li {
+	list-style: none;
+	width: 300px;
+}
+
+.catalog-list p {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.catalog-materials {
+	background-color: #ffbf47;
+}
+
+.catalog-tools {
+	background-color: #3bbce3;
+}
+
+.catalog-technic {
+	background-color: #dc91d8;
+}
+
+.catalog-discont {
+	background-color: #8ed78f;
+}
+
+.catalog-delivery {
+	background-color: #ffc047;
+}
+
+.slide-title {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.slide-description {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*Стили для popular-product*/
+.popular-button {
+	padding: 15px 55px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+.popular-title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background-color: #f9f5f0;
+	width: 940px;
+	align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.popular-title h2 {
+	margin-left: 30px;
+	color: #32425c;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+/*Стили для popular-brands*/
+.brands-list {
+	padding: 0;
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 940px;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brands-list li {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 145px;
+	list-style: none;
+	width: 220px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.services {
+	background: url(../img/services-bg.png);
+	background-color: #f4f8fa;
+}
+
+.services-title {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.services-text {
+	font-family: "PT Sans";
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/*Стили для about-company*/
 .about-company-title, 
 .contacts-title {
   font-size: 30px;
