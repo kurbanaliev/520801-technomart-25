@@ -996,8 +996,50 @@ p.additional-text {
 
 /*Стили для Футера*/
 .footer-top-bg {
-	background-color: #000;
-	margin-top: 30px;
+  background-color: #32425c;
+  margin-top: 85px;
+}
+
+.site-navigation-footer,
+.site-navigation-footer-darken {
+	box-shadow: none;
+	margin-left: auto;
+	padding-right: 0;
+}
+
+.site-navigation .padding-right {
+  padding-right: 0;
+}
+
+.footer-top-row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.main-bottom-logo  {
+  display: block;
+  margin-bottom: 33px;
+  padding: 20px 40px 15px;
+  background-color: #ee3643;
+  -webkit-box-shadow: 0 5px 0 0 #b52933;
+  box-shadow: 0 5px 0 0 #b52933;
+}
+
+.footer-middle-row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.addres-phone {
+	padding: 0;
+	margin: 0;
 }
 .addres-phone li {
 	color: #f3f7f9;
@@ -1013,14 +1055,68 @@ p.additional-text {
 
 .site-navigation-footer-darken a {
 	color: #ffd180;
+	padding-top: 0px;
 }
 
-.footer-bottom {
+.site-navigation-footer a:hover,
+.site-navigation-footer-darken a:hover {
+	text-decoration: underline;
+	background: none;
+}
+.site-navigation-footer-darken {
+  margin-top: 0;
+}
+
+.footer-bottom-bg {
 	background-color: #293449;
 }
 
-.footer-social ul {
+.footer-bottom {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+.social-list {
+	display: flex;
 	list-style: none;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+
+.social-list a {
+	display: block;
+	width: 42px;
+	height: 42px;
+	background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.social-vk {
+	background-image: url(../img/icon-vk.svg);
+	background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.social-fb {
+	background-image: url(../img/icon-fb.svg);
+	background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.social-inst {
+	background-image: url(../img/icon-insta.svg);
+	background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.socail-item: {
+  padding-right: 2px;
 }
 
 .footer-bottom p, b { 
